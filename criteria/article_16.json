@@ -21,7 +21,7 @@
     ],
     "requirementGroups": [
       {
-        "description": "Підтвреджується, що",
+        "description": "Підтверджується, що",
         "requirements": [
           {
             "dataType": "boolean",
@@ -57,7 +57,7 @@
     ],
     "requirementGroups": [
       {
-        "description": "Підтвреджується, що",
+        "description": "Підтверджується, що",
         "requirements": [
           {
             "dataType": "boolean",
@@ -93,7 +93,7 @@
     ],
     "requirementGroups": [
       {
-        "description": "Підтвреджується, що",
+        "description": "Підтверджується, що",
         "requirements": [
           {
             "dataType": "boolean",
@@ -129,7 +129,7 @@
     ],
     "requirementGroups": [
       {
-        "description": "Підтвреджується, що",
+        "description": "Підтверджується, що",
         "requirements": [
           {
             "dataType": "boolean",
