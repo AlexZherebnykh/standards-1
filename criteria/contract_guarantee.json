@@ -1,34 +1,78 @@
-[
-    {
-        "title": "Забезпечення виконання договору",
-        "source": "winner",
-        "classification": {
-            "scheme": "ESPD211",
-            "id": "CRITERION.OTHER.CONTRACT.GUARANTEE"
+{
+    "title": "Забезпечення виконання договору",
+    "source": "winner",
+    "classification": {
+      "scheme": "ESPD211",
+      "id": "CRITERION.OTHER.CONTRACT.GUARANTEE"
+    },
+    "legislation": [
+      {
+        "version": "2020-04-19",
+        "identifier": {
+          "id": "922-VIII",
+          "legalName": "Закон України \"Про публічні закупівлі\"",
+          "uri": "https://zakon.rada.gov.ua/laws/show/922-19"
         },
-        "legislation": [
-            {
-                "version": "2020-04-19",
-                "identifier": {
-                    "id": "922-VIII",
-                    "legalName": "Закон України \"Про публічні закупівлі\"",
-                    "uri": "https://zakon.rada.gov.ua/laws/show/922-19"
-                },
-                "type": "NATIONAL_LEGISLATION"
-            }
+        "type": "NATIONAL_LEGISLATION"
+      }
     ],
-           "requirementGroups": [
-            {
-                "description": "Учасник підтверджує, що",
-                "requirements": [
-                  {
-                        "title": "Розмір та умови надання забезпечення виконання договору про закупівлю",
-                        "dataType": "boolean",
-                        "expectedValue": "true"
-                    }
-                    ]
-                 
+    "requirementGroups": [
+      {
+        "description": "Забезпечення виконання договору надається у формі гарантії фінансової установи",
+        "requirements": [
+          {
+            "title": "Забезпечення виконання Договору про закупівлю надається Постачальником на суму, що становить % від ціни цього Договору про закупівлю",
+            "dataType": "number",
+            "unit":{
+              "name": "відсоток",
+              "code": "P1"
             }
+          },
+          {
+            "title": "Строк дії гарантії повинен перевищувати строк дії цього Договору про закупівлю не менше ніж",
+            "dataType": "number",
+            "unit":{
+              "name": "день",
+              "code": "DAY"
+            }
+          },
+          {
+            "title": "Інші вимоги до забезпечення",
+            "dataType": "boolean",
+            "expectedValue": true
+          }
         ]
-    }
+      },
+      {
+        "description": "Забезпечення виконання договору надається у іншій формі",
+        "requirements": [
+          {
+            "title": "Забезпечення виконання Договору про закупівлю надається Постачальником на суму, що становить % від ціни цього Договору про закупівлю",
+            "dataType": "number",
+            "unit":{
+              "name": "відсоток",
+              "code": "P1"
+            }
+          },
+          {
+            "title": "Форма забезпечення",
+            "dataType": "boolean",
+            "expectedValue": true
+          },
+          {
+            "title": "Строк дії гарантії повинен перевищувати строк дії цього Договору про закупівлю не менше ніж",
+            "dataType": "number",
+            "unit":{
+              "name": "день",
+              "code": "DAY"
+            }
+          },
+          {
+            "title": "Інші вимоги до забезпечення",
+            "dataType": "boolean",
+            "expectedValue": true
+          }
+        ]
+      }
     ]
+  }
